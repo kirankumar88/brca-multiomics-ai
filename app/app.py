@@ -10,8 +10,16 @@ import gseapy as gp
 # Load Model + Features
 # -------------------------------
 
-model = pickle.load(open("multiomics_binary_model.pkl", "rb"))
-features = pickle.load(open("features.pkl", "rb"))
+from pathlib import Path
+import pickle
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+model_path = BASE_DIR / "models" / "multiomics_binary_model.pkl"
+features_path = BASE_DIR / "models" / "features.pkl"
+
+model = pickle.load(open(model_path, "rb"))
+features = pickle.load(open(features_path, "rb"))
 
 # Load metrics
 try:
