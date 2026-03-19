@@ -50,7 +50,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title(" HistoMap AI : Mapping breast cancer histology through multi-omics intelligence")
+st.title(" brca-multiomics-ai : Mapping breast cancer histology through multi-omics intelligence")
 
 st.write("""
 Upload multi-omics data (RNA-seq, CNV, mutation, proteomics) to classify
