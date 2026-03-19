@@ -78,7 +78,7 @@ Predictions + Biomarkers + Pathways
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/HistoMap-AI.git
+git clone https://github.com/kirankumar88/brca-multiomics-ai.git
 cd HistoMap-AI
 
 ### 2. Install Dependencies
