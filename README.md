@@ -10,6 +10,9 @@ brca-multiomics-ai is an interpretable, AI-driven platform designed to classify 
 
 The platform combines machine learning with biological interpretation to identify key biomarkers, quantify omics-layer contributions, and perform pathway enrichment analysis to uncover underlying disease mechanisms.
 
+<img width="1536" height="1024" alt="cd0cb992-8801-4efa-b81b-7e18473fe892" src="https://github.com/user-attachments/assets/772424c4-6eb3-4cb3-94ad-b4c443588900" />
+
+
 ## Live app link
 Streamlit cloud : (https://brca-multiomics-ai-uvpdtrfnmmbzkdfj834rpc.streamlit.app/)
 
